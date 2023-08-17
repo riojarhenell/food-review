@@ -7,4 +7,8 @@ mydb = mysql.connector.connect(
     database="food_review_py"
 )
 
+'''
+SAMPLE COMMIT
+'''
+
 print(mydb)
