@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block head %}
+{% endblock %}
+
+{% block body %}
+<h1>Users</h1>
+<table border="1">
+    {% for users in result %}
+
+    <tr>
+        <td>{{users[0]}}</td>
+        <td>{{users[1]}}</td>
+        <td>{{users[2]}}</td>
+    </tr>
+    {% endfor %}
+
+</table>
+{% endblock %}
